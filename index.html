@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepLock</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="Nav_Header">
+            <a class="Header_Me" href="index.html">Encriptador</a>
+            <a class="Header_Me" href="about.html">¿Quién soy?</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="Texto_Presentacion">
+            <div class="DeepLock_Tittle">
+                <h1 class="Tittle"><strong>DeepLock</strong></h1>
+            </div>
+    
+            <div class="Subtext__Format">
+                <h2 class="Subtext">Alura desencriptador</h2>
+            </div>
+    
+            <div class="container_input">
+                <textarea id="inputText" class="text-input" placeholder="Bienvenido a este desencriptador, usa la siguiente clave:
+            a =ai  e =enter  i =imes  o =ober  u =ufat
+    Escribe tu texto aquí..."></textarea>
+            </div>
+    
+            <div class="button_container">
+                <button class="Bottons" onclick="encrypt()">Encriptar</button>
+                <button class="Bottons" onclick="decrypt()">Desencriptar</button>
+                <button class="Bottons" onclick="copyText()">Copiar</button>
+            </div>
+    
+            <div class="container_input">
+                <textarea id="outputText" class="text-output" readonly placeholder="Gracias por usar :D 
+    El resultado aparecerá aquí..."></textarea>
+            </div>
+        </section>
+    </main>
+
+    <footer class="Footer">
+        <p class="By">Creado por J. Alexander Bernal</p>
+        <p class="Redes"> Sígueme en:</p>
+        <div class="Footer_Links">
+            <a class="Redes" href="https://www.instagram.com/alex_bernal23/">Instagram</a>
+            <a class="Redes" href="https://github.com/EcoKnight">Github</a>
+        </div>
+    </footer>
+
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: -webkit-linear-gradient(to right, #360033, #0b1993); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #360033, #0b1993); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Krona One', sans-serif;
+}
+
+.Nav_Header {
+    background: #1f1a39;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 20px; /* Incrementar tamaño */
+    gap: 15px;
+}
+
+.Nav_Header a {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Playwrite NG Modern", cursive;
+    text-decoration: none;
+    padding: 10px; /* Añadir padding para mejorar el hover */
+    border-radius: 5px; /* Suavizar los bordes */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+}
+
+.Nav_Header a:hover {
+    background-color: #2f2857;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+.Texto_Presentacion {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.DeepLock_Tittle, .Subtext__Format, .container_input {
+    margin-bottom: 20px;
+    text-align: center; /* Centra el texto */
+}
+
+.Tittle {
+    color: aliceblue;
+    font-size: 50px;
+    font-family: "Playwrite NG Modern", cursive;
+    text-align: center; /* Centra el texto */
+}
+
+.Subtext {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Playwrite NG Modern", cursive;
+    text-align: center; /* Centra el texto */
+}
+
+.text {
+    color: gray;
+    font-size: 17px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.Bottons {
+    border: 2px solid #ffffff;
+    background-color: #0f0c30;
+    width: 130px;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Krona One", sans-serif;
+}
+
+.Bottons:hover {
+    background-color: #24214d;
+}
+
+.By {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+.Redes {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: "Playwrite NG Modern", cursive;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Linkedin {
+    color: #0e76a8;
+    font-size: 20px;
+    font-family: "Playwrite NG Modern", cursive;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Linkedin:hover {
+    color: #0b5a8a;
+}
+
+.text-input, .text-output {
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparencia */
+    color: #333; /* Color del texto */
+}
+
+.text-output {
+    background-color: rgba(240, 240, 240, 0.8); /* Transparencia */
+}
+
+.container_input {
+    margin-bottom: 20px;
+}
+
+.AboutMeText {
+    color: aliceblue;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+.Texto_Presentacion {
+    color: rgb(158, 158, 158);
+    font-size: 17px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.Img_Me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Img_Me img {
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
+.Footer {
+    background-color: #08061d;
+    padding: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.Footer_Links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Content_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinea el contenido verticalmente */
+    gap: 20px;
+}
+
+.Link_Container {
+    display: flex;
+    justify-content: center;
+}
